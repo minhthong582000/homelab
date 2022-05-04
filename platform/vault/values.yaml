@@ -12,7 +12,7 @@ vault:
         hajimari.io/appName: Vault
         hajimari.io/icon: database-lock
       hosts:
-        - host: &host vault.khuedoan.com
+        - host: &host vault.example.com
       tls:
         - secretName: vault-tls-certificate
           hosts:

@@ -12,7 +12,7 @@ authentik:
       hajimari.io/appName: Authentik
       hajimari.io/icon: account
     hosts:
-      - host: &host authentik.khuedoan.com
+      - host: &host authentik.example.com
         paths:
           - path: /
             pathType: Prefix
